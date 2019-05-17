@@ -19,15 +19,47 @@ rules:
   # prettier: some rules are kept for reference but commented out to avoid
   #   conflicts with prettier
 
+  getter-return: warn
+  handle-callback-err: warn
+  no-async-promise-executor: warn
+  no-cond-assign: warn
   no-console: warn
+  no-const-assign: error
+  no-control-regex: warn
   no-debugger: warn
+  no-delete-var: error
+  no-dupe-args: warn
+  no-dupe-class-members: warn
+  no-dupe-keys: warn
+  no-duplicate-case: warn
+  no-duplicate-imports: warn
+  no-empty-character-class: warn
+  no-empty-pattern: warn
   no-floating-decimal: off
+  no-global-assign: error
+  no-irregular-whitespace: error
+  no-loop-func: warn
   no-mixed-operators: off
-  no-return-assign: off
+  no-new-symbol: error
+  no-obj-calls: error
+  no-redeclare: error
+  no-regex-spaces: warn
+  no-return-assign: warn
   no-self-compare: error
+  no-tabs: off # prettier
+  no-throw-literal: warn
   no-trailing-spaces: warn
+  no-undef: error
+  no-unreachable: warn
+  no-unsafe-finally: error
+  no-unsafe-negation: error
+  no-unused-expressions: [error, {allowShortCircuit: true, allowTernary: true}]
   no-unused-vars: [warn, { args: after-used }]
-  no-tabs: off
+  no-useless-constructor: warn
+  no-useless-rename: warn
+  # no-warning-comments warns on DEBUG & XXX comments, that you probably
+  # don't want to commit; longer term flags like TODO and FIXME are fine
+  no-warning-comments: [warn, {terms: [debug, xxx]}]
   no-var: warn
   # operator-linebreak: [warn, before, overrides: { =: after }]
   operator-linebreak: off # prettier
@@ -36,9 +68,13 @@ rules:
   # quotes: [warn, single, {avoidEscape: true}]
   quotes: off # prettier
   indent: [off, 2]
+  require-atomic-updates: error
   space-before-function-paren: off
   space-before-blocks: off
+  symbol-description: warn
   template-curly-spacing: off # fails on ${'' /* comment */}
+  use-isnan: error
+  valid-typeof: error
 
   # --- import---
 
