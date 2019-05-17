@@ -1,0 +1,53 @@
+extends:
+  - plugin:import/errors
+  - plugin:import/warnings
+  - plugin:prettier/recommended # last
+
+plugins:
+  - prettier
+  - import
+
+parser: babel-eslint
+
+parserOptions:
+  ecmaVersion: 2019
+  sourceType: module
+
+rules:
+  # comma-dangle:
+  #   - error
+  #   - arrays: always-multiline
+  #     objects: always-multiline
+  #     imports: always-multiline
+  #     exports: always-multiline
+  #     functions: only-multiline
+  # semi: off
+  import/first: off
+  import/no-named-as-default: off
+  no-debugger: warn
+  no-floating-decimal: off
+  no-mixed-operators: off
+  no-return-assign: off
+  no-self-compare: error
+  no-trailing-spaces: warn
+  no-unused-vars: [warn, { args: after-used }]
+  no-tabs: off
+  no-var: warn
+  operator-linebreak: [error, before, overrides: { =: after }]
+  padded-blocks: off
+  prefer-const: warn
+  # quotes: [warn, single, {avoidEscape: true}]
+  quotes: off
+  indent: [off, 2]
+  space-before-function-paren: off
+  space-before-blocks: off
+  template-curly-spacing: off # fails on ${'' /* comment */}
+  # # react
+  # react/jsx-indent: [warn, 2]
+  # react/jsx-indent-props: [warn, 2]
+  # react/jsx-uses-react: error
+  # react/jsx-uses-vars: error
+  # react/react-in-jsx-scope: error
+  # react/self-closing-comp: error
+  vue/require-default-prop: off
+  vue/attributes-order: off
