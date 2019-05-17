@@ -13,3 +13,13 @@ The following script will create defaults `.eslintrc` and `.prettierrc` where it
 ```bash
 npx rixo-eslint init
 ```
+
+# Variants
+
+## Atom
+
+`.eslintrc`
+
+```yml
+extends: '@rixo/atom'
+```

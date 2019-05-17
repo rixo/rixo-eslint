@@ -1,0 +1,24 @@
+{
+  "name": "@rixo/eslint-config-atom",
+  "version": "0.0.0",
+  "description": "Rixo's eslint config for atom development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rixo/rixo-eslint.git"
+  },
+  "keywords": [
+    "rixo",
+    "eslint",
+    "atom"
+  ],
+  "author": "rixo <rixo@rixo.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rixo/rixo-eslint/issues"
+  },
+  "homepage": "https://github.com/rixo/rixo-eslint#readme"
+}
