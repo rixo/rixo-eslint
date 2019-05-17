@@ -16,6 +16,9 @@ parserOptions:
 rules:
   # --- defaults ---
 
+  # prettier: some rules are kept for reference but commented out to avoid
+  #   conflicts with prettier
+
   no-console: warn
   no-debugger: warn
   no-floating-decimal: off
@@ -26,21 +29,14 @@ rules:
   no-unused-vars: [warn, { args: after-used }]
   no-tabs: off
   no-var: warn
-  operator-linebreak: [warn, before, overrides: { =: after }]
+  # operator-linebreak: [warn, before, overrides: { =: after }] # prettier
   padded-blocks: off
   prefer-const: warn
-  quotes: [warn, single, {avoidEscape: true}]
+  # quotes: [warn, single, {avoidEscape: true}] # prettier
   indent: [off, 2]
   space-before-function-paren: off
   space-before-blocks: off
   template-curly-spacing: off # fails on ${'' /* comment */}
-
-  # --- prettier --
-  #
-  # avoid conflicts with prettier
-
-  operator-linebreak: off
-  quotes: off
 
   # --- import---
 
