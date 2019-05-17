@@ -1,4 +1,4 @@
-extends: ./eslint.default.yml
+extends: '@rixo'
 
 globals:
   atom: true
