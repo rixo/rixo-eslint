@@ -1,6 +1,6 @@
 {
   "name": "@rixo/eslint",
-  "version": "0.1.0-alpha.9",
+  "version": "0.1.0-alpha.10",
   "description": "Rixo's eslint & prettier default dependencies",
   "keywords": [
     "rixo",
