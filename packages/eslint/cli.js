@@ -22,7 +22,7 @@ const write = (file, contents) =>
 const readTpl = file =>
   new Promise((resolve, reject) => {
     fs.readFile(
-      `${__dirname}/../templates/${file}`,
+      `${__dirname}/./templates/${file}`,
       { encoding },
       (err, data) => {
         if (err) reject(err)
