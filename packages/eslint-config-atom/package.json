@@ -26,6 +26,6 @@
   "homepage": "https://github.com/rixo/rixo-eslint#readme",
   "gitHead": "f72737df8cefbfe9df941eaeec850f20d09a0fb9",
   "dependencies": {
-    "@rixo/eslint-config": "^0.1.0-alpha.19"
+    "@rixo/eslint-config": "^0.1.0"
   }
 }
