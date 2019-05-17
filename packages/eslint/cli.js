@@ -1,12 +1,14 @@
+#!/usr/bin/env node
+
 const fs = require('fs')
 
 const encoding = 'utf8'
-
 const cwd = process.cwd()
 const files = ['.eslintrc', '.prettierrc']
 
-if (process.argv[2] !== 'init') {
+if (process.argv[3] !== 'init') {
   console.log('Usage: rixo-eslint init')
+  process.exit(1)
 }
 
 const write = (file, contents) =>
@@ -39,5 +41,5 @@ Promise.all(files.map(processFile))
   .then(() => console.log('OK'))
   .catch(err => {
     console.error(err)
-    process.exit(1)
+    process.exit(255)
   })
