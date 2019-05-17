@@ -1,16 +1,7 @@
 {
-  "name": "rixo-eslint",
-  "version": "0.1.0",
-  "description": "Rixo's eslint & prettier config",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "rixo",
-    "eslint",
-    "prettier"
-  ],
-  "author": "Rixo <rixo@rixo.fr>",
-  "license": "MIT"
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.14.1"
+  }
 }
