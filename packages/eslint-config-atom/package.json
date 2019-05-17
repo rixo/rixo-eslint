@@ -1,6 +1,6 @@
 {
   "name": "@rixo/eslint-config-atom",
-  "version": "0.1.0-alpha.12",
+  "version": "0.1.0-alpha.13",
   "description": "Rixo's eslint config for atom development",
   "main": "index.js",
   "scripts": {

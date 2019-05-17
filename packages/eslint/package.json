@@ -1,6 +1,6 @@
 {
   "name": "@rixo/eslint",
-  "version": "0.1.0-alpha.12",
+  "version": "0.1.0-alpha.13",
   "description": "Rixo's eslint & prettier default dependencies",
   "repository": {
     "type": "git",
