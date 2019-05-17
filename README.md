@@ -26,6 +26,17 @@ You can customize your rules in `.eslintrc` too.
 
 # Variants
 
+Note: the example bellow use the shortcut form of extends, but feel free to use an array if you want to extend from other config.
+
+Example:
+
+```yml
+# .eslintrc
+extends:
+  - '@rixo'
+  - 'plugin:whatever'
+```
+
 ## Default
 
 ```yml
@@ -34,6 +45,8 @@ extends: '@rixo'
 ```
 
 ## Atom
+
+Specific rules for development of Atom packages.
 
 ```yml
 # .eslintrc
