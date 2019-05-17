@@ -1,4 +1,4 @@
-Monorepo for all my eslint & prettier stuff, in a sharable form.
+Monorepo for all my eslint & prettier stuff, in a easily sharable form.
 
 # Installation
 
