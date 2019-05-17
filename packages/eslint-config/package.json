@@ -1,6 +1,6 @@
 {
   "name": "@rixo/eslint-config",
-  "version": "0.1.0-alpha.5",
+  "version": "0.1.0-alpha.6",
   "description": "Rixo's default eslint config",
   "keywords": [
     "rixo",
@@ -18,7 +18,7 @@
   "author": "rixo <rixo@rixo.fr>",
   "license": "MIT",
   "dependencies": {
-    "@rixo/eslint": "^0.1.0-alpha.5"
+    "@rixo/eslint": "^0.1.0-alpha.6"
   },
   "gitHead": "68f4dc94360d29c1d9a4cc21826662b6f72d36b5"
 }
