@@ -6,7 +6,7 @@ const encoding = 'utf8'
 const cwd = process.cwd()
 const files = ['.eslintrc', '.prettierrc']
 
-if (process.argv[3] !== 'init') {
+if (process.argv[2] !== 'init') {
   console.log('Usage: rixo-eslint init')
   process.exit(1)
 }
