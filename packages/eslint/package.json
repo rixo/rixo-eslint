@@ -16,7 +16,9 @@
   },
   "author": "rixo <rixo@rixo.fr>",
   "license": "MIT",
-  "bin": "./cli.js",
+  "bin": {
+    "rixo-eslint": "./cli.js"
+  },
   "dependencies": {
     "eslint": "^5.16.0",
     "eslint-config-prettier": "^4.3.0",
