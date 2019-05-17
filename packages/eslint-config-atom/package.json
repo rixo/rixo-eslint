@@ -10,6 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/rixo/rixo-eslint.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "rixo",
     "eslint",
@@ -20,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/rixo/rixo-eslint/issues"
   },
-  "homepage": "https://github.com/rixo/rixo-eslint#readme"
+  "homepage": "https://github.com/rixo/rixo-eslint#readme",
+  "gitHead": "f72737df8cefbfe9df941eaeec850f20d09a0fb9"
 }

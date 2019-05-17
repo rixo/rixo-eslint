@@ -31,5 +31,6 @@
     "eslint-plugin-prettier": "^3.1.0",
     "js-yaml": "^3.13.1",
     "prettier": "^1.17.1"
-  }
+  },
+  "gitHead": "f72737df8cefbfe9df941eaeec850f20d09a0fb9"
 }
