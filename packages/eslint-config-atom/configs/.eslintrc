@@ -3,3 +3,6 @@ extends:
 
 globals:
   atom: true
+
+rules:
+  import/no-unresolved: [error, {ignore: ['^atom$']}]
