@@ -23,8 +23,9 @@ const resolveTargets = async () => {
           const path = `${templates}/${file}`
           const exists = fs.existsSync(path)
           if (exists) {
-            console.info(`Found ${file} in ${moduleName}: ${path}`)
-            resolved[file] = await readTpl(path)
+            // console.info(`Found ${file} in ${moduleName}: ${path}`)
+            const contents = await readTpl(path)
+            resolved[file] = { file, moduleName, contents }
             const allResolved = Object.keys(resolved).length === files.length
             if (allResolved) {
               return resolved
@@ -37,7 +38,7 @@ const resolveTargets = async () => {
       if (!/Error: Cannot find module/.test(err)) {
         throw err
       }
-      console.debug(`Optional module not found: ${moduleName}`)
+      // console.debug(`Optional module not found: ${moduleName}`)
     }
   }
   return resolved
@@ -66,18 +67,23 @@ const resolveAppRoot = () => {
   }
 }
 
-const writeTarget = async ([file, contents]) => {
+const writeTarget = async ({ file, moduleName, contents }) => {
   const cwd = resolveAppRoot()
   if (!cwd) {
     throw new Error('Failed to find project root from: ' + __dirname)
   }
   const target = `${cwd}/${file}`
-  if (fs.existsSync(file)) {
-    console.info(`Skipping existing file: ${file}`)
+  if (fs.existsSync(target)) {
+    console.info(`Skip creating existing file: ${file}`)
     return
   }
   await writeFile(target, contents)
-  console.info(`Written: ${file}`)
+  console.info(`Written ${file} (from ${moduleName})`)
+}
+
+const writeTargets = resolvedTargets => {
+  const targets = Object.values(resolvedTargets)
+  return Promise.all(targets.map(writeTarget))
 }
 
 const readTpl = path =>
@@ -101,9 +107,7 @@ const warnMissingFiles = targets => {
 Promise.resolve()
   .then(resolveTargets)
   .then(warnMissingFiles)
-  .then(targets => Object.entries(targets))
-  .then(targets => Promise.all(targets.map(writeTarget)))
-  .then(() => console.log('OK'))
+  .then(writeTargets)
   .catch(err => {
     console.error(err)
     process.exit(255)
