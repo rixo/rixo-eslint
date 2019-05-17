@@ -1,4 +1,5 @@
-extends: '@rixo'
+extends:
+  - '@rixo'
 
 globals:
   atom: true

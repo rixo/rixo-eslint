@@ -29,10 +29,12 @@ rules:
   no-unused-vars: [warn, { args: after-used }]
   no-tabs: off
   no-var: warn
-  # operator-linebreak: [warn, before, overrides: { =: after }] # prettier
+  # operator-linebreak: [warn, before, overrides: { =: after }]
+  operator-linebreak: off # prettier
   padded-blocks: off
   prefer-const: warn
-  # quotes: [warn, single, {avoidEscape: true}] # prettier
+  # quotes: [warn, single, {avoidEscape: true}]
+  quotes: off # prettier
   indent: [off, 2]
   space-before-function-paren: off
   space-before-blocks: off

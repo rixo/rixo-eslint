@@ -16,13 +16,11 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node ./postinstall.js"
   },
   "author": "rixo <rixo@rixo.fr>",
   "license": "MIT",
-  "bin": {
-    "rixo-eslint": "./cli.js"
-  },
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
