@@ -1,5 +1,16 @@
 extends:
   - '@rixo'
+  - plugin:prettier/recommended # last
+
+parserOptions:
+  ecmaVersion: 2017
+  sourceType: module
+
+env:
+  atomtest: true
+  browser: true
+  mocha: true
+  node: true
 
 globals:
   atom: true
