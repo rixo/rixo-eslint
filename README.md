@@ -12,11 +12,17 @@ In some cases, depending on the order you run your `npm install` commands, the f
 
 # Usage
 
-The following script will create defaults `.eslintrc` and `.prettierrc` where it is run (should be the root of your project, in most cases).
+Just use eslint, & prettier...
 
 ```bash
-npx rixo-eslint init
+npx eslint src
+
+npx prettier 'src/**/*'
+
+npx prettier --write 'src/**/*'
 ```
+
+You can customize your rules in `.eslintrc` too.
 
 # Variants
 
