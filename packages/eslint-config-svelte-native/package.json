@@ -28,6 +28,7 @@
   "dependencies": {
     "@rixo/eslint-config": "^0.4.0",
     "eslint-import-resolver-webpack": "^0.11.1",
-    "eslint-plugin-svelte3": "^1.2.0"
+    "eslint-plugin-svelte3": "^1.2.0",
+    "prettier-plugin-svelte": "^0.5.1"
   }
 }
