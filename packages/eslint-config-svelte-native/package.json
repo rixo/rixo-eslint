@@ -1,0 +1,33 @@
+{
+  "name": "@rixo/eslint-config-svelte-native",
+  "version": "0.3.1",
+  "description": "Rixo's eslint config for svelte native projects",
+  "author": "rixo <eric@rixo.fr>",
+  "keywords": [
+    "rixo",
+    "eslint",
+    "svelte",
+    "svelte-native"
+  ],
+  "homepage": "https://github.com/rixo/rixo-eslint#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rixo/rixo-eslint.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/rixo/rixo-eslint/issues"
+  },
+  "dependencies": {
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-svelte3": "^1.2.0",
+    "@rixo/eslint-config": "^0.4"
+  }
+}

@@ -3,8 +3,13 @@ const path = require('path')
 
 const encoding = 'utf8'
 
-const files = ['.eslintrc', '.prettierrc']
+const requiredFiles = ['.eslintrc', '.prettierrc']
+const optionalFiles = ['.eslintrc.js']
+const files = [...requiredFiles, ...optionalFiles]
+
+// more specific first!
 const sortedModulesWithTemplates = [
+  '@rixo/eslint-config-svelte-native',
   '@rixo/eslint-config-atom',
   '@rixo/eslint-config',
   '@rixo/eslint',
@@ -95,7 +100,7 @@ const readTpl = path =>
   })
 
 const warnMissingFiles = targets => {
-  files.forEach(file => {
+  requiredFiles.forEach(file => {
     if (!targets[file]) {
       console.warn(`No suitable ${file} found in your installed module`)
       console.info(`${file} won't be automatically created`)
