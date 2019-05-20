@@ -12,3 +12,7 @@ parserOptions:
 env:
   es6: true
   browser: true
+
+rules:
+  # eslint-prettier + eslint-svelte = crash... too soon!
+  prettier/prettier: off
