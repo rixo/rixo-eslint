@@ -24,6 +24,18 @@ npx prettier --write 'src/**/*'
 
 You can customize your rules in `.eslintrc` too.
 
+# Customization
+
+## Disable plugin
+
+All variants include [eslint-plugin-disable][eslint-plugin-disable] so you can always disable a plugin that was added automatically, if the combination does not work well for you.
+
+`eslint-plugin-disable` supports disabling in `.eslintrc` or on a per-file basis, with a comment:
+
+```js
+/* eslint-plugin-disable import, prettier */
+```
+
 # Variants
 
 Note: the example bellow use the shortcut form of extends, but feel free to use an array if you want to extend from other config.
@@ -52,3 +64,5 @@ Specific rules for development of Atom packages.
 # .eslintrc
 extends: '@rixo/atom'
 ```
+
+[eslint-plugin-disable]: https://github.com/mradionov/eslint-plugin-disable
