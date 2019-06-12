@@ -1,26 +1,33 @@
 {
-  "name": "eslint-config-svelte",
-  "version": "0.7.0-alpha.0",
-  "description": "> TODO: description",
-  "author": "rixo <eric@rixo.fr>",
+  "name": "@rixo/eslint-config-svelte",
+  "version": "0.6.0",
+  "description": "Rixo's eslint config for svelte projects",
+  "author": "rixo <rixo@rixo.fr>",
+  "keywords": [
+    "rixo",
+    "eslint",
+    "svelte"
+  ],
   "homepage": "https://github.com/rixo/rixo-eslint#readme",
   "license": "MIT",
   "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rixo/rixo-eslint.git"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/rixo/rixo-eslint/issues"
+  },
+  "dependencies": {
+    "@rixo/eslint-config": "^0.6.0",
+    "eslint-import-resolver-webpack": "^0.11.1",
+    "eslint-plugin-svelte3": "^1.2.0",
+    "prettier-plugin-svelte": "^0.5.1"
   }
 }
