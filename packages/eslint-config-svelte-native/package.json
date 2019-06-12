@@ -1,6 +1,6 @@
 {
   "name": "@rixo/eslint-config-svelte-native",
-  "version": "0.7.0-alpha.3",
+  "version": "0.7.0-alpha.4",
   "description": "Rixo's eslint config for svelte native projects",
   "author": "rixo <eric@rixo.fr>",
   "keywords": [
@@ -26,7 +26,7 @@
     "url": "https://github.com/rixo/rixo-eslint/issues"
   },
   "dependencies": {
-    "@rixo/eslint-config": "^0.7.0-alpha.3",
+    "@rixo/eslint-config": "^0.7.0-alpha.4",
     "eslint-import-resolver-webpack": "^0.11.1",
     "eslint-plugin-svelte3": "^1.2.0",
     "prettier-plugin-svelte": "^0.5.1"
