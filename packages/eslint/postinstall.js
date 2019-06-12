@@ -10,6 +10,7 @@ const files = [...requiredFiles, ...optionalFiles]
 // more specific first!
 const sortedModulesWithTemplates = [
   '@rixo/eslint-config-svelte-native',
+  '@rixo/eslint-config-svelte',
   '@rixo/eslint-config-atom',
   '@rixo/eslint-config',
   '@rixo/eslint',
