@@ -1,6 +1,6 @@
 {
   "name": "@rixo/eslint-config-svelte",
-  "version": "0.7.0-alpha.2",
+  "version": "0.7.0-alpha.3",
   "description": "Rixo's eslint config for svelte projects",
   "author": "rixo <rixo@rixo.fr>",
   "keywords": [
