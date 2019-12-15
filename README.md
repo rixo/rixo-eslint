@@ -6,9 +6,15 @@ Monorepo for all my eslint & prettier stuff, in a easily sharable form.
 npm install --dev @rixo/eslint-config
 ```
 
-A `.eslintrc` and `.prettierrc` will be created in your project by a npm postinstall script. If these files already exists in your project, then they won't be touched.
+You can have your `.eslintrc` and `.prettierrc` files can be created automatically for you by running the provided script:
 
-In some cases, depending on the order you run your `npm install` commands, the files may not be created or may target the wrong variant. In case of problem, refer to the [variants](#variants) section bellow and fix it!
+```bash
+npm run rixo-eslint-init
+```
+
+If these files already exists in your project, then they won't be touched.
+
+Not too sure about Windows support currently, but if the script doesn't work for you, you can refer to the variants section to create the files yourself.
 
 # Usage
 
@@ -54,6 +60,15 @@ extends:
 ```yml
 # .eslintrc
 extends: '@rixo'
+```
+
+## Svelte
+
+With added support for Svelte syntax (in both eslint & prettier).
+
+```yml
+# .eslintrc
+extends: '@rixo/svelte'
 ```
 
 ## Atom
