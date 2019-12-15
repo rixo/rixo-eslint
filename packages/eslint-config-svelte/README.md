@@ -1,11 +1,3 @@
 # `eslint-config-svelte`
 
-> TODO: description
-
-## Usage
-
-```
-const eslintConfigSvelte = require('eslint-config-svelte');
-
-// TODO: DEMONSTRATE API
-```
+**NOTE** This package is part of [rixo-eslint](https://github.com/rixo/rixo-eslint). Refer to the main repo's README for docs.
