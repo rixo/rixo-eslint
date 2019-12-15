@@ -17,11 +17,14 @@
 module.exports = {
   extends: ['./.eslintrc'],
   settings: {
-    // most projects need some kind of configuration for webpack
-    'import/resolver': {
-      webpack: {
-        config: require('./webpack.config.js'),
-      },
-    },
+    // Most projects need some kind of configuration for import resolution.
+    //
+    // Example:
+    //
+    //     'import/resolver': {
+    //       webpack: {
+    //         config: require('./webpack.config.js'),
+    //       },
+    //     },
   },
 }
