@@ -1,6 +1,6 @@
 {
   "name": "@rixo/eslint-config",
-  "version": "0.8.0",
+  "version": "0.8.1",
   "description": "Rixo's default eslint config",
   "keywords": [
     "rixo",
