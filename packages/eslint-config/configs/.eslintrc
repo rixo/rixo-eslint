@@ -71,7 +71,8 @@ rules:
   # quotes: [warn, single, {avoidEscape: true}]
   quotes: off # prettier
   indent: [off, 2]
-  require-atomic-updates: error
+  # require-atomic-updates keeps giving, apparently buggy, false errors
+  require-atomic-updates: off
   space-before-function-paren: off
   space-before-blocks: off
   symbol-description: warn
