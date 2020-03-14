@@ -79,15 +79,15 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@rixo/eslint-config@^0.7.2":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@rixo/eslint-config/-/eslint-config-0.7.2.tgz#b8d044def36083e8e00055441f6094c18659b753"
+"@rixo/eslint-config@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@rixo/eslint-config/-/eslint-config-0.8.1.tgz#ca3ce7de4a7e9a1b72e6eb253727f4d9dafd9afd"
   dependencies:
-    "@rixo/eslint" "^0.7.2"
+    "@rixo/eslint" "^0.8.0"
 
-"@rixo/eslint@^0.7.2":
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/@rixo/eslint/-/eslint-0.7.2.tgz#6151e4e81c1b8ef4b622e4f7d6d003884d8d8404"
+"@rixo/eslint@^0.8.0":
+  version "0.8.0"
+  resolved "https://registry.yarnpkg.com/@rixo/eslint/-/eslint-0.8.0.tgz#01d0006533f05926f16e5b02bad638980bc27018"
   dependencies:
     babel-eslint "^10.0.1"
     eslint "^6.0.1"
@@ -103,8 +103,8 @@ acorn-jsx@^5.1.0:
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.1.0.tgz#294adb71b57398b0680015f0a38c563ee1db5384"
 
 acorn@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
 
 ajv@^6.10.0, ajv@^6.10.2:
   version "6.10.2"
