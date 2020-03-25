@@ -1,9 +1,13 @@
 {
   "name": "@rixo/eslint-config-svelte",
-  "version": "0.9.0-alpha.0",
+  "version": "0.9.0-alpha.1",
   "description": "Rixo's eslint config for svelte projects",
   "author": "rixo <rixo@rixo.fr>",
-  "keywords": ["rixo", "eslint", "svelte"],
+  "keywords": [
+    "rixo",
+    "eslint",
+    "svelte"
+  ],
   "homepage": "https://github.com/rixo/rixo-eslint#readme",
   "license": "MIT",
   "main": "index.js",
