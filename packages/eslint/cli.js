@@ -61,16 +61,18 @@ const writeFile = (path, contents) =>
   })
 
 const resolveAppRoot = () => {
+  if (process.argv.length > 2) return path.resolve(process.argv[2])
+
   const steps = __dirname.split('/')
   steps.pop()
   while (steps.length) {
-    const path = [...steps].join('/') || '/'
+    const file = [...steps].join('/') || '/'
     steps.pop()
     const found =
-      fs.existsSync(`${path}/package.json`) ||
-      fs.existsSync(`${path}/node_modules`)
+      fs.existsSync(`${file}/package.json`) ||
+      fs.existsSync(`${file}/node_modules`)
     if (found) {
-      return path
+      return file
     }
   }
 }
