@@ -94,10 +94,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@rixo/eslint@^0.9.0-alpha.0":
-  version "0.9.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@rixo/eslint/-/eslint-0.9.0-alpha.0.tgz#20a0c22d872677f4574379c4e9774a9e96fa8617"
-  integrity sha512-czk35HHzgdnIs33GRN+Hg3/hyuwTqwV+ZkohQ2W9S4kHaP3Tk7MsNS2+nO/PlzPP9LbDPekiHm+/Mg6mztMTHA==
+"@rixo/eslint@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@rixo/eslint/-/eslint-0.9.0.tgz#56a10e1f2e1120b0230c2841f3ebbfed0079da3f"
+  integrity sha512-phAmf9f+arTn3/lEf2o9SuUAJSj1Jr8sqYWuxZkCrRqSi9lF/ZKUhmtnpo+oUd39gAUz+p5K+I0s/U2hB6WXyQ==
   dependencies:
     babel-eslint "^10.0.1"
     eslint "^6.0.1"
@@ -1010,9 +1010,9 @@ locate-path@^2.0.0:
     path-exists "^3.0.0"
 
 lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 mimic-fn@^2.1.0:
   version "2.1.0"
