@@ -1,12 +1,16 @@
 {
   "name": "@rixo/eslint",
-  "version": "0.10.0-alpha.0",
+  "version": "0.11.0-alpha.0",
   "description": "Rixo's eslint & prettier default dependencies",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rixo/rixo-eslint.git"
   },
-  "keywords": ["rixo", "eslint", "prettier"],
+  "keywords": [
+    "rixo",
+    "eslint",
+    "prettier"
+  ],
   "main": "index.js",
   "bin": {
     "rixo-eslint-init": "./cli.js"
