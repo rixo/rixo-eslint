@@ -94,10 +94,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@rixo/eslint@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@rixo/eslint/-/eslint-0.9.0.tgz#56a10e1f2e1120b0230c2841f3ebbfed0079da3f"
-  integrity sha512-phAmf9f+arTn3/lEf2o9SuUAJSj1Jr8sqYWuxZkCrRqSi9lF/ZKUhmtnpo+oUd39gAUz+p5K+I0s/U2hB6WXyQ==
+"@rixo/eslint@^0.10.0-alpha.0":
+  version "0.10.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@rixo/eslint/-/eslint-0.10.0-alpha.0.tgz#44f527b6e1cbe6aeb08808d8f736f91b6e8a92ec"
+  integrity sha512-qZAeQ26rwhvTTq5t/15fcpzh4yMCw8KC05+hziPrEOLkTXqrMpgQxFFxW0rbZbwxntEeRzBkMYvYMt5fU2fRiQ==
   dependencies:
     babel-eslint "^10.0.1"
     eslint "^6.0.1"

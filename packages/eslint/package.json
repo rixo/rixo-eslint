@@ -6,11 +6,7 @@
     "type": "git",
     "url": "git+https://github.com/rixo/rixo-eslint.git"
   },
-  "keywords": [
-    "rixo",
-    "eslint",
-    "prettier"
-  ],
+  "keywords": ["rixo", "eslint", "prettier"],
   "main": "index.js",
   "bin": {
     "rixo-eslint-init": "./cli.js"
@@ -24,14 +20,7 @@
   "author": "rixo <rixo@rixo.fr>",
   "license": "MIT",
   "dependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^6.0.1",
-    "eslint-config-prettier": "^4.3.0",
-    "eslint-plugin-disable": "^1.0.4",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-prettier": "^3.1.0",
-    "js-yaml": "^3.13.1",
-    "prettier": "^2.0.2"
+    "js-yaml": "^3.13.1"
   },
   "gitHead": "f72737df8cefbfe9df941eaeec850f20d09a0fb9"
 }
