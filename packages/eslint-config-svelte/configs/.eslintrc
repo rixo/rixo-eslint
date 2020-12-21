@@ -10,7 +10,7 @@ parserOptions:
   sourceType: module
 
 overrides:
-  - files: ["*.svelte"]
+  - files: ["*.svelte", "*.svench"]
     processor: svelte3/svelte3
 
 env:
