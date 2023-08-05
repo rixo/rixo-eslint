@@ -8,8 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rixo/rixo-eslint.git"
+    "url": "git+https://github.com/rixo/rixo-eslint.git",
+    "directory": "packages/eslint-config-atom"
   },
+  "homepage": "https://github.com/rixo/rixo-eslint#readme",
   "publishConfig": {
     "access": "public"
   },

@@ -4,8 +4,10 @@
   "description": "Rixo's eslint & prettier default dependencies",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rixo/rixo-eslint.git"
+    "url": "git+https://github.com/rixo/rixo-eslint.git",
+    "directory": "packages/eslint"
   },
+  "homepage": "https://github.com/rixo/rixo-eslint#readme",
   "keywords": [
     "rixo",
     "eslint",
